@@ -1,14 +1,15 @@
-import { useHistory } from 'react-router';
-import toast from 'react-hot-toast';
-import { FormEvent, useState } from 'react';
-import { database } from '../services/firebase';
-import { Button } from '../components/Button';
-import { useAuth } from '../hooks/useAuth';
+import { useHistory } from 'react-router'
+import toast from 'react-hot-toast'
+import { FormEvent, useState } from 'react'
 
-import googleIconImg from '../assets/images/google-icon.svg';
-import illustrationImg from '../assets/images/illustration.svg';
-import logoImg from '../assets/images/logo.svg';
-import '../styles/auth.scss';
+import { database } from '../services/firebase'
+import { Button } from '../components/Button'
+import { useAuth } from '../hooks/useAuth'
+
+import googleIconImg from '../assets/images/google-icon.svg'
+import illustrationImg from '../assets/images/illustration.svg'
+import logoImg from '../assets/images/logo.svg'
+import '../styles/auth.scss'
 
 export function Home() {
   const history = useHistory();

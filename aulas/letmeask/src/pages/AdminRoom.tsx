@@ -1,4 +1,5 @@
 import toast from 'react-hot-toast'
+
 import { useHistory, useParams } from 'react-router-dom'
 import { Button } from '../components/Button'
 import { RoomCode } from '../components/RoomCode'

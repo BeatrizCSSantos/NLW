@@ -1,12 +1,12 @@
-import { Link, useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom'
 
-import { Button } from '../components/Button';
+import { Button } from '../components/Button'
 
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../hooks/useAuth'
 
-import illustrationImg from '../assets/images/illustration.svg';
-import logoImg from '../assets/images/logo.svg';
-import '../styles/auth.scss';
+import illustrationImg from '../assets/images/illustration.svg'
+import logoImg from '../assets/images/logo.svg'
+import '../styles/auth.scss'
 
 import { FormEvent, useState } from 'react';
 
